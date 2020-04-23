@@ -25,6 +25,7 @@ public class Practic14  extends Application {
         System.out.println("And what char is it");
         String R1 = in.nextLine();
         char Ch = ' ';
+		
         if(R1.length()==1){
             Ch = R1.charAt(1);
         }
